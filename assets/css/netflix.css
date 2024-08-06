@@ -1,0 +1,398 @@
+body {
+    background-color: black;
+}
+
+#box1 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent), url("../images/netflix_backcover.jpg");
+    width: 180vh;
+    height: 700px;
+    margin-left: -10px;
+    border: none;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    outline: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#logo {
+    height: 60px;
+    width: 201px;
+    margin-left: 200px;
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#navcomps {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#languages {
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 500px;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#english,
+#hindi {
+    color: black;
+}
+
+#signin {
+    margin-top: 10px;
+    margin-left: -480px;
+    margin-right: 250px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+#headingb1 {
+    margin-left: -20px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 230px;
+}
+
+#textb11 {
+    margin-left: -20px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#textb12 {
+    padding-top: 3px;
+    margin-left: -20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#emailbox {
+    height: 50px;
+    width: 350px;
+    margin-left: -50px;
+    background-color: rgba(34, 34, 34, 0.719);
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(49, 47, 47);
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+}
+
+#getstarted {
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 10px;
+
+}
+
+/* ---------------------------------------------------------------------- */
+
+#box2 {
+    width: 1680px;
+    height: 600px;
+    border: none;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    outline: none;
+}
+
+#b2all {
+    margin-left: 100px;
+}
+
+#text-b2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#textb21 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 200px;
+    padding-left: 50px;
+    margin-right: 20px;
+
+}
+
+#tvbox {
+    padding-top: 50px;
+    padding-right: 0px;
+
+}
+
+#tvframe {
+    margin-right: -400px;
+    position: relative;
+}
+
+#tvvid {
+    width: 470px;
+    margin-bottom: 135px;
+    margin-left: 85px;
+    margin-right: 170px;
+    margin-top: -500px;
+
+}
+
+/* ------------------------------------------------------------- */
+
+#box3 {
+    width: 1680px;
+    height: 600px;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    display: flex;
+}
+
+#mobile {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+#blackbox {
+    height: 90px;
+    width: 350px;
+    margin-left: 140px;
+    margin-top: -130px;
+    position: absolute;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+#stranger_things {
+    height: 80px;
+    width: 55px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: baseline;
+}
+
+#dicon{
+margin-left: 260px;
+margin-top: -65px;
+}
+
+#headingb31 {
+    margin-top: -70px;
+    margin-left: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#textb31 {
+    margin-top: -15px;
+    margin-left: 80px;
+    color: rgb(0, 85, 255);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#headingb32 {
+    position: relative;
+    top: 200px;
+    left: -20px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#textb32 {
+    position: relative;
+    top: 400px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* -------------------------------------------------------------------- */
+
+#box4 {
+    width: 1680px;
+    height: 600px;
+    border-bottom: 8px solid rgb(30, 30, 30);
+}
+
+#b4all {
+    margin-left: 100px;
+}
+
+#text-b4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#textb41 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 230px;
+    padding-left: 50px;
+    margin-right: 20px;
+
+}
+
+#macbox {
+    padding-top: 80px;
+    padding-left: 50px;
+
+}
+
+#macframe {
+    margin-right: -400px;
+    position: relative;
+    right: 150px;
+    z-index: 1;
+}
+
+#macvid {
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 40px;
+    right: 280px;
+    z-index: 0;
+}
+
+/* ------------------------------------------------------------------- */
+
+#box5 {
+    width: 1680px;
+    height: 600px;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    display: flex;
+}
+
+#pic51 {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+#headingb51 {
+    position: relative;
+    top: 200px;
+    left: -20px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ------------------------------------------------------------------ */
+
+#box6 {
+    width: 1680px;
+    height: 750px;
+    border: none;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    outline: none;
+
+}
+#headingb61 {
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.accordion-flush {
+    margin-top: 30px;
+    margin: 50px;
+}
+.accordion-flush .accordion-header {
+    color: #fff;
+    font-size: 25px;
+  }
+.accordion-flush .accordion-body {
+    background-color: #323232;
+    color: #ffffff;
+    font-size: 20px;
+  }
+.accordion-flush .accordion-button {
+    background-color: #323232;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 25px;
+}
+  
+.accordion-flush .accordion-button:hover {
+    background-color: #565656;
+    color: #ffffff;
+}
+
+.accordion-button::after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg>');
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/></svg>');
+}
+
+/* ---------------------------------------------------------------- */
+
+#footer{
+    width: 1680px;
+    height: 350px;
+    border: none;
+    outline: none;
+    color: grey;
+    font-size: 17px;
+    padding: 50px 200px;
+}
+a:visited, a:hover, a:active {color: grey}
+
+li{padding-top: 10px;}
+
+#ulset1{
+    margin-left: -30px;
+}
+
+#ulset2{
+    margin-left: 300px;
+    margin-top: -155px;
+}
+
+#ulset3{
+    margin-left: 600px;
+    margin-top: -155px;
+}
+
+#ulset4{
+    margin-left: 900px;
+    margin-top: -155px;
+}
+#languages2{
+    height: 40px;
+    margin-top: 50px;
+    margin-right: 500px;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
